@@ -116,6 +116,7 @@ public:
 		cout << "\t Enter Volume    :: "; cin >> enter; setVolume(enter);
 		cout << "\t Enter Date      :: "; cin >> date.day >> date.month >> date.year;
 	}
+
 	// public: доступ відкритий, видимі поля та методи за межами класу
 	// private: доступ закритий, доступ лише в середині класу до полів та методів
 	// protected: захищений, доступ до полів та методів лише в середині класу та у класів наслідників
