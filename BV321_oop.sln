@@ -9,6 +9,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "01_helper home", "01_helper
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "02_ctor dtor constMethod", "02_ctor dtor constMethod\02_ctor dtor constMethod.vcxproj", "{C7175573-3408-44D7-853A-A232548F4AB4}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "03_copy Ctor_ static method_field", "03_copy Ctor_ static method_field\03_copy Ctor_ static method_field.vcxproj", "{D84C27FA-67FD-4A43-8B9E-7F927BFB284D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -41,6 +43,14 @@ Global
 		{C7175573-3408-44D7-853A-A232548F4AB4}.Release|x64.Build.0 = Release|x64
 		{C7175573-3408-44D7-853A-A232548F4AB4}.Release|x86.ActiveCfg = Release|Win32
 		{C7175573-3408-44D7-853A-A232548F4AB4}.Release|x86.Build.0 = Release|Win32
+		{D84C27FA-67FD-4A43-8B9E-7F927BFB284D}.Debug|x64.ActiveCfg = Debug|x64
+		{D84C27FA-67FD-4A43-8B9E-7F927BFB284D}.Debug|x64.Build.0 = Debug|x64
+		{D84C27FA-67FD-4A43-8B9E-7F927BFB284D}.Debug|x86.ActiveCfg = Debug|Win32
+		{D84C27FA-67FD-4A43-8B9E-7F927BFB284D}.Debug|x86.Build.0 = Debug|Win32
+		{D84C27FA-67FD-4A43-8B9E-7F927BFB284D}.Release|x64.ActiveCfg = Release|x64
+		{D84C27FA-67FD-4A43-8B9E-7F927BFB284D}.Release|x64.Build.0 = Release|x64
+		{D84C27FA-67FD-4A43-8B9E-7F927BFB284D}.Release|x86.ActiveCfg = Release|Win32
+		{D84C27FA-67FD-4A43-8B9E-7F927BFB284D}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
