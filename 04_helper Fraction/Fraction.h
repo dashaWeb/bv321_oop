@@ -1,7 +1,10 @@
 #pragma once
+#include <iostream>
 #include <string>
 using std::string;
 using std::to_string;
+using std::istream;
+using std::ostream;
 class Fraction
 {
 private:
@@ -21,6 +24,8 @@ public:
 	Fraction operator -(const Fraction& other) const; // this(left){one}; other(right){two}
 	Fraction operator /(const Fraction& other) const; // this(left){one}; other(right){two}
 	Fraction operator *(const Fraction& other) const; // this(left){one}; other(right){two}
+	friend ostream& operator <<(ostream& out, const Fraction& data);
+	friend istream& operator >>(istream& out, Fraction& data);
 	void operator-();
 };
 

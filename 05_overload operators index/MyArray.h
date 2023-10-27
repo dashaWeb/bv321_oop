@@ -19,6 +19,9 @@ public:
 	int& operator[](const int& index); // set - повертаємо посилання на елемент масиву за індексом
 	MyArray operator()(const int& start, const int& end) const;
 
+	friend std::ostream& operator <<(std::ostream& out, const MyArray& data); // cout
+	friend std::istream& operator >>(std::istream& in,  MyArray& data); // cin
+
 private:
 	int* arr = nullptr;
 	size_t size = 0;

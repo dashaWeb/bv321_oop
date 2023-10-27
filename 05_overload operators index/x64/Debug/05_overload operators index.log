@@ -1,3 +1,5 @@
-﻿  05_overload operators index.cpp
-C:\Users\dev\source\repos\BV321_oop\05_overload operators index\05_overload operators index.cpp(15,14): warning C4267: 'argument': conversion from 'size_t' to 'const int', possible loss of data
+﻿  MyArray.cpp
+C:\Users\dev\source\repos\BV321_oop\05_overload operators index\MyArray.cpp(40,17): warning C4267: 'argument': conversion from 'size_t' to 'const int', possible loss of data
+C:\Users\dev\source\repos\BV321_oop\05_overload operators index\MyArray.cpp(49,16): warning C4267: 'argument': conversion from 'size_t' to 'const int', possible loss of data
+C:\Users\dev\source\repos\BV321_oop\05_overload operators index\MyArray.cpp(60,15): warning C4267: 'argument': conversion from 'size_t' to 'const int', possible loss of data
   05_overload operators index.vcxproj -> C:\Users\dev\source\repos\BV321_oop\x64\Debug\05_overload operators index.exe

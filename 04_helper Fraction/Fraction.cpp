@@ -73,3 +73,16 @@ void Fraction::operator-()
 
 // 15/45  / 15
 // 1 / 3
+
+ostream& operator<<(ostream& out, const Fraction& data)
+{
+	out << data.num << "/" << data.denum;
+	return out;
+}
+
+istream& operator>>(istream& out, Fraction& data)
+{
+	out >> data.num;
+	out >> data.denum;
+	return out;
+}

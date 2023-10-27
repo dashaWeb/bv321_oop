@@ -19,4 +19,12 @@ int main()
     MyArray res = arr(2, 7);
     res.print();
     arr.print();
+    int a = 66;
+    cout << "Test operator << \n";
+    cout << res << endl;
+    cout << "Test operator << \n";
+    cout << arr << endl;
+    cout << "Test operator >> \n";
+    cin >> res;
+    cout << res;
 }
