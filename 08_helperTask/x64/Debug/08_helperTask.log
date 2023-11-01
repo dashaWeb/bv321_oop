@@ -1,0 +1,24 @@
+﻿  08_helperTask.cpp
+C:\Users\dev\source\repos\BV321_oop\08_helperTask\PQueue.h(111,1): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\dev\source\repos\BV321_oop\08_helperTask\PQueue.h(107,1): message : while compiling class template member function 'int PQueue<int>::getPos(const Node<T> &) const'
+          with
+          [
+              T=int
+          ]
+C:\Users\dev\source\repos\BV321_oop\08_helperTask\PQueue.h(52,12): message : see reference to function template instantiation 'int PQueue<int>::getPos(const Node<T> &) const' being compiled
+          with
+          [
+              T=int
+          ]
+C:\Users\dev\source\repos\BV321_oop\08_helperTask\PQueue.h(47,1): message : while compiling class template member function 'void PQueue<int>::push(const Node<T> &)'
+          with
+          [
+              T=int
+          ]
+C:\Users\dev\source\repos\BV321_oop\08_helperTask\08_helperTask.cpp(13,15): message : see reference to function template instantiation 'void PQueue<int>::push(const Node<T> &)' being compiled
+          with
+          [
+              T=int
+          ]
+C:\Users\dev\source\repos\BV321_oop\08_helperTask\08_helperTask.cpp(6,23): message : see reference to class template instantiation 'PQueue<int>' being compiled
+  08_helperTask.vcxproj -> C:\Users\dev\source\repos\BV321_oop\x64\Debug\08_helperTask.exe
