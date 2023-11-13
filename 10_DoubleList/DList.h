@@ -37,6 +37,7 @@ public:
 	bool isEmpty() const;
 	void removeData(const T& data);
 	void clear();
+	DList<T>* operator+(const DList<T>& source)const; // a{this} + b{source}
 	~DList()
 	{
 		clear();
@@ -44,6 +45,7 @@ public:
 private:
 	Node<T>* findData(const T& data) const;
 	void clone(DList<T>* dest, const DList<T>& source);
+	void helperCat(DList<T>* dest, const DList<T>& source) const;
 	Node<T>* head = nullptr;
 	Node<T>* tail = nullptr;
 	size_t size = 0;
@@ -165,6 +167,14 @@ inline void DList<T>::clear()
 }
 
 template<typename T>
+inline DList<T>* DList<T>::operator+(const DList<T>& source) const
+{
+	DList<T>* tmp = new DList<T>(*this);
+	helperCat(tmp, source);
+	return tmp;
+}
+
+template<typename T>
 inline Node<T>* DList<T>::findData(const T& data) const
 {
 	auto tmp = head;
@@ -181,7 +191,18 @@ inline void DList<T>::clone(DList<T>* dest, const DList<T>& source)
 	if (!dest->isEmpty()) {
 		dest->clear();
 	}
-	auto tmp = source.head;
+	Node<T>* tmp = source.head;
+	while (tmp != nullptr)
+	{
+		dest->addTail(tmp->data);
+		tmp = tmp->next;
+	}
+}
+
+template<typename T>
+inline void DList<T>::helperCat(DList<T>* dest, const DList<T>& source) const
+{
+	Node<T>* tmp = source.head;
 	while (tmp != nullptr)
 	{
 		dest->addTail(tmp->data);

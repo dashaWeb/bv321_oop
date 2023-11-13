@@ -39,9 +39,13 @@ int main()
     list.print();
     cout << "Print Clone    :: ";
     clone.print();
-    clone.clear();
+    DList<int>* res;
+    res = clone + list;
+    cout << "Print Result   :: ";
+    res->print();
+   /* clone.clear();
     cout << "Print Clone    :: ";
-    clone.print();
+    clone.print();*/
     //list.printR();
     //cout << "\n\n";
     //list.printR();
