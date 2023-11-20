@@ -1,0 +1,5 @@
+﻿  18_myException.cpp
+C:\Users\dev\source\repos\BV321_oop\18_myException\18_myException.cpp(43,9): warning C4286: 'DivisionByZeroException': is caught by base class ('MyException') on line 38
+C:\Users\dev\source\repos\BV321_oop\18_myException\18_myException.cpp(48,9): warning C4286: 'TooBigValuExceprion': is caught by base class ('MyException') on line 38
+C:\Users\dev\source\repos\BV321_oop\18_myException\18_myException.cpp(53,9): warning C4286: 'TooSmallValuExceprion': is caught by base class ('MyException') on line 38
+  18_myException.vcxproj -> C:\Users\dev\source\repos\BV321_oop\x64\Debug\18_myException.exe
